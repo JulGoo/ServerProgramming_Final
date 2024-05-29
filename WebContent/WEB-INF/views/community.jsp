@@ -49,7 +49,7 @@
 				</thead>
 				<tbody>
 					<c:forEach var="obj" items="${community }">
-						<tr>
+						<tr onclick="location.href='/Final_202244026/board?idx=${obj.idx}'">
 							<td>${obj.idx }</td>
 							<td>${obj.title }</td>
 							<td>${obj.userID }</td>
